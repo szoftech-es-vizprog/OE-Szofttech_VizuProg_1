@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28010.2048
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ElsoOra", "ElsoOra\ElsoOra.csproj", "{4447670B-C29A-4176-8F86-DE698D8F126F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4447670B-C29A-4176-8F86-DE698D8F126F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4447670B-C29A-4176-8F86-DE698D8F126F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4447670B-C29A-4176-8F86-DE698D8F126F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4447670B-C29A-4176-8F86-DE698D8F126F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DD03D002-AAD2-4B8B-A204-68292B8F8276}
+	EndGlobalSection
+EndGlobal

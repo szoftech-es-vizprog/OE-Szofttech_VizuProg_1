@@ -1,0 +1,24 @@
+﻿<Window x:Class="ElsoOra.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ElsoOra"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="411.702" Width="774.468" BorderBrush="#FF3AD6E6" Background="#FFCF5B5B" ResizeMode="CanResizeWithGrip">
+    <Grid>
+        <!-- x:Name="ezzel a névvel érhető el az adott elem a .cs fileból"  -->
+        <Button x:Name="Button1" Content="Indítás" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Width="98" Click="Button_Click" Height="51" FontSize="18"/>
+        <Label x:Name="Text1" Content="" HorizontalAlignment="Left" Margin="10,81,0,0" VerticalAlignment="Top" Width="218" Height="63" FontFamily="Showcard Gothic" FontSize="22"/>
+
+        <Button x:Name="Button2" Content="Vissza" HorizontalAlignment="Left" Margin="113,10,0,0" VerticalAlignment="Top" Width="94" Height="51" Click="Button_Click_1" FontSize="20"/>
+        <CheckBox x:Name="check1" Content="CheckBox" HorizontalAlignment="Left" Margin="10,171,0,0" VerticalAlignment="Top" FontSize="36"/>
+        <RadioButton Content="Tik" HorizontalAlignment="Left" Margin="452,246,0,0" VerticalAlignment="Top" FontSize="20" GroupName="group1" Checked="RadioButton_Checked"/>
+        <RadioButton Content="Tak" HorizontalAlignment="Left" Margin="452,266,0,0" VerticalAlignment="Top" FontSize="20" GroupName="group1" Checked="RadioButton_Checked_1"/>
+        <RadioButton Content="Tak2" HorizontalAlignment="Left" Margin="452,286,0,0" VerticalAlignment="Top" FontSize="20" GroupName="group1"/>
+        <Label x:Name="RadioLabel" Content="Label" HorizontalAlignment="Left" Margin="439,324,0,0" VerticalAlignment="Top" FontSize="20" Width="156" AutomationProperties.Name="RadioLabel"/>
+        <TextBox x:Name="TextBox1" HorizontalAlignment="Left" Height="34" Margin="516,27,0,0" TextWrapping="Wrap" Text="Kérem a szöveget" VerticalAlignment="Top" Width="191" AutomationProperties.Name="TextBox1" FontSize="20" KeyUp="TextBox1_KeyUp" GotFocus="TextBox1_GotFocus"/>
+        <Label x:Name="TextBoxLabel" Content="" HorizontalAlignment="Left" Margin="577,61,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.458,-0.009" AutomationProperties.Name="TextBoxLabel" FontSize="20"/>
+
+    </Grid>
+</Window>
